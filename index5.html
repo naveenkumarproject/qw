@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>update password</title>
+	<link rel="stylesheet" href="h2.css">
+</head>
+
+<body>
+<div class="container">
+<span style="font-size: 40px; color: rgb(255, 0, 0);">w</span>
+	<span style="font-size: 40px; color: blue;">e</span>
+	<span style="font-size: 40px; color: green;">l</span>
+	<span style="font-size: 40px; color: goldenrod;">c</span>
+	<span style="font-size: 40px; color: yellow;">o</span>
+	<span style="font-size: 40px; color: green;">m</span>
+	<span style="font-size: 40px; color: goldenrod;">e</span>
+	<span style="font-size: 40px; color: green;">-</span>
+	<span style="font-size: 40px; color: yellow;">t</span>
+	<span style="font-size: 40px; color: green;">o</span>
+	<span style="font-size: 40px; color: goldenrod;">-</span>
+    <span style="font-size: 40px; color: rgb(255, 0, 0);">w</span>
+	<span style="font-size: 40px; color: blue;">e</span>
+	<span style="font-size: 40px; color: green;">a</span>
+	<span style="font-size: 40px; color: goldenrod;">t</span>
+	<span style="font-size: 40px; color: yellow;">h</span>
+	<span style="font-size: 40px; color: green;">e</span>
+	<span style="font-size: 40px; color: goldenrod;">r</span>
+	<span style="font-size: 40px; color: green;">-</span>
+	<span style="font-size: 40px; color: red;">i</span>
+	<span style="font-size: 40px; color: blue;">n</span>
+	<span style="font-size: 40px; color: yellow;">f</span>
+	<span style="font-size: 40px; color: green;">o</span>
+	<span style="font-size: 40px; color: green;">-</span>
+	<span style="font-size: 40px; color: red;">u</span>
+	<span style="font-size: 40px; color: blue;">p</span>
+	<span style="font-size: 40px; color: yellow;">d</span>
+	<span style="font-size: 40px; color: green;">a</span>
+	<span style="font-size: 40px; color: green;">t</span>
+	<span style="font-size: 40px; color: green;">i</span>
+	<span style="font-size: 40px; color: green;">o</span>
+	<span style="font-size: 40px; color: green;">n</span>
+	</div>
+	<form action="Callingservlet3" method="post">
+		<label for="number">phone number</label>
+		<input type="tel" id="number" name="number" pattern="[0-9]{10}" maxlength=10
+			title="please enter exactly 10 digits" required>
+		<br>
+		<br>
+		<label for="password">user password</label>
+		<input type="password" id="password" name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&*!=]).{8,}"
+			title="must contain one lower case and one Uppercase and one special Character total 8 characters" required>
+		<button>update password</button>
+	</form>
+</body>
+
+</html>
